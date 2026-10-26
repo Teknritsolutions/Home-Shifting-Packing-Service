@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://movenest.example/pages/404.html</loc></url>
+  <url><loc>https://movenest.example/pages/about.html</loc></url>
+  <url><loc>https://movenest.example/pages/blog-details.html</loc></url>
+  <url><loc>https://movenest.example/pages/blog.html</loc></url>
+  <url><loc>https://movenest.example/pages/coming-soon.html</loc></url>
+  <url><loc>https://movenest.example/pages/contact.html</loc></url>
+  <url><loc>https://movenest.example/pages/forgot-password.html</loc></url>
+  <url><loc>https://movenest.example/pages/home-1.html</loc></url>
+  <url><loc>https://movenest.example/pages/home-2.html</loc></url>
+  <url><loc>https://movenest.example/pages/how-it-works.html</loc></url>
+  <url><loc>https://movenest.example/pages/login.html</loc></url>
+  <url><loc>https://movenest.example/pages/pricing.html</loc></url>
+  <url><loc>https://movenest.example/pages/register.html</loc></url>
+  <url><loc>https://movenest.example/pages/service-areas.html</loc></url>
+  <url><loc>https://movenest.example/pages/service-details.html</loc></url>
+  <url><loc>https://movenest.example/pages/services.html</loc></url>
+</urlset>

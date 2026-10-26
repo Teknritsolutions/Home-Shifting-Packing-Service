@@ -1,0 +1,14 @@
+{
+    "name": "movenest-premium-template",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "build": "node scripts/build.cjs",
+        "start": "node scripts/serve.cjs",
+        "test": "node tests/qa.cjs"
+    },
+    "devDependencies": {
+        "playwright": "1.56.1",
+        "prettier": "^3.6.2"
+    }
+}

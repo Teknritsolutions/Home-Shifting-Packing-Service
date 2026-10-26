@@ -1,0 +1,38 @@
+:root[data-theme="dark"] {
+    --primary: #a5cdb1;
+    --deep: #103a30;
+    --sage: #a7c4a0;
+    --accent: #a7c4a0;
+    --bg: #101c18;
+    --soft: #172720;
+    --surface: #1d3027;
+    --heading: #f1f5ef;
+    --text: #b9c9bf;
+    --border: #35493e;
+    --shadow: 0 12px 40px #0002;
+    color-scheme: dark;
+}
+[data-theme="dark"] .btn:not(.btn-light):not(.btn-outline) {
+    background: #a5cdb1;
+    color: #102b20;
+    border-color: #a5cdb1;
+}
+[data-theme="dark"] .btn-outline {
+    color: var(--primary);
+}
+[data-theme="dark"] .hero {
+    background: var(--bg);
+}
+[data-theme="dark"] .stars {
+    color: #dcc18a;
+}
+[data-theme="dark"] .avatar {
+    color: #273b2d;
+}
+[data-theme="dark"] .cta {
+    background: #172f25;
+}
+[data-theme="dark"] .editorial-hero .btn-outline {
+    color: #fff;
+    border-color: #fff;
+}

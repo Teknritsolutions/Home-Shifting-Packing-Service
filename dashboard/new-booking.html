@@ -1,0 +1,747 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Plan a new move | MoveNest</title>
+        <meta
+            name="description"
+            content="Plan a new move — MoveNest premium packing and relocation HTML website. Thoughtful moving services and interactive front-end examples."
+        />
+        <meta property="og:title" content="Plan a new move | MoveNest" />
+        <meta
+            property="og:description"
+            content="Plan a new move — MoveNest premium packing and relocation HTML website. Thoughtful moving services and interactive front-end examples."
+        />
+        <meta property="og:type" content="website" />
+        <link rel="canonical" href="https://movenest.example/dashboard/new-booking.html" />
+        <link rel="icon" href="../assets/images/branding/favicon.svg" type="image/svg+xml" />
+        <link rel="icon" href="../assets/images/branding/favicon.png" type="image/png" />
+        <link rel="apple-touch-icon" href="../assets/images/branding/apple-touch-icon.png" />
+        <link
+            rel="preload"
+            href="../assets/fonts/inter.woff2"
+            as="font"
+            type="font/woff2"
+            crossorigin
+        />
+        <script src="../assets/js/theme.js"></script>
+        <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="../assets/css/style.css" />
+        <link rel="stylesheet" href="../assets/css/dark-mode.css" />
+        <link rel="stylesheet" href="../assets/css/dashboard.css" />
+        <link rel="stylesheet" href="../assets/css/responsive.css" />
+        <link rel="stylesheet" href="../assets/css/premium.css" />
+        <link rel="stylesheet" href="../assets/css/readability.css" />
+        <link rel="stylesheet" href="../assets/css/rtl.css" />
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "WebPage",
+                "name": "Plan a new move",
+                "description": "Plan a new move — MoveNest premium packing and relocation HTML website. Thoughtful moving services and interactive front-end examples.",
+                "url": "https://movenest.example/dashboard/new-booking.html"
+            }
+        </script>
+    </head>
+    <body class="dashboard-page">
+        <main id="main">
+            <div class="dashboard-shell" data-dashboard="customer">
+                <aside class="dashboard-sidebar" id="dash-sidebar">
+                    <a class="brand" href="../pages/home-1.html" aria-label="MoveNest home">
+                        <svg viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                            <rect x="1" y="1" width="46" height="46" rx="13" fill="currentColor" />
+                            <path
+                                d="M12 32V20l6-5 6 5 6-5 6 5v12"
+                                stroke="var(--logo-ink, white)"
+                                stroke-width="2.2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            />
+                            <path
+                                d="m16 28 8 7 8-7"
+                                stroke="var(--logo-detail, #D9BE87)"
+                                stroke-width="2.2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            />
+                        </svg>
+                        <span class="brand-copy">
+                            Move
+                            <span class="brand-light">Nest</span>
+                            <small>
+                                <span class="brand-description-full">Packing & Relocation</span>
+                                <span class="brand-description-compact">Move with care</span>
+                            </small>
+                        </span>
+                    </a>
+                    <span class="sidebar-label">Your moving space</span>
+                    <nav aria-label="Customer navigation">
+                        <a class="" href="customer-dashboard.html">
+                            <svg
+                                class=""
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                aria-hidden="true"
+                                data-icon="home"
+                            >
+                                <path d="m3 10 9-7 9 7M5 9v12h14V9M9 21v-8h6v8" />
+                            </svg>
+                            Overview
+                        </a>
+                        <a class="active" href="new-booking.html">
+                            <svg
+                                class=""
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                aria-hidden="true"
+                                data-icon="box"
+                            >
+                                <path
+                                    d="m12 3 9 5v9l-9 5-9-5V8l9-5Zm0 10 9-5M3 8l9 5v9M7.5 5.5l9 5v4"
+                                />
+                            </svg>
+                            New booking
+                        </a>
+                        <a class="" href="my-bookings.html">
+                            <svg
+                                class=""
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                aria-hidden="true"
+                                data-icon="file"
+                            >
+                                <path d="M6 3h8l4 4v14H6zM14 3v5h4M9 12h6m-6 4h6" />
+                            </svg>
+                            My bookings
+                        </a>
+                        <a class="" href="move-tracking.html">
+                            <svg
+                                class=""
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                aria-hidden="true"
+                                data-icon="truck"
+                            >
+                                <path d="M2 6a2 2 0 0 1 2-2h10v13H2V6Zm12 3h4l4 5v3h-8" />
+                                <circle cx="6" cy="18" r="2.5" />
+                                <circle cx="18" cy="18" r="2.5" />
+                                <path d="M14 14h8" />
+                            </svg>
+                            Move tracking
+                        </a>
+                        <a class="" href="invoices.html">
+                            <svg
+                                class=""
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                aria-hidden="true"
+                                data-icon="file"
+                            >
+                                <path d="M6 3h8l4 4v14H6zM14 3v5h4M9 12h6m-6 4h6" />
+                            </svg>
+                            Invoices
+                        </a>
+                        <a class="" href="customer-profile.html">
+                            <svg
+                                class=""
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                aria-hidden="true"
+                                data-icon="settings"
+                            >
+                                <path
+                                    d="m9 3-.6 2.2-2 .9-2-.6L2 10l1.8 1.5v2L2 15l2.4 4.5 2-.6 2 .9L9 22h6l.6-2.2 2-.9 2 .6L22 15l-1.8-1.5v-2L22 10l-2.4-4.5-2 .6-2-.9L15 3H9Z"
+                                />
+                                <circle cx="12" cy="12.5" r="3" />
+                            </svg>
+                            Profile & settings
+                        </a>
+                    </nav>
+                    <div class="sidebar-bottom">
+                        <div class="panel">
+                            <span class="round-icon">
+                                <svg
+                                    class=""
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    aria-hidden="true"
+                                    data-icon="headset"
+                                >
+                                    <path
+                                        d="M4 13v-2a8 8 0 0 1 16 0v2M4 12H3v6h4v-6H4Zm16 0h1v6h-4v-6h3Zm0 6v1a3 3 0 0 1-3 3h-4"
+                                    />
+                                    <path d="M10 22h3" />
+                                </svg>
+                            </span>
+                            <h4>A little help?</h4>
+                            <p>Your next step starts with a conversation.</p>
+                            <a class="text-link" href="../pages/contact.html">
+                                Contact support
+                                <svg
+                                    class="arrow-icon"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    aria-hidden="true"
+                                    data-icon="arrow"
+                                >
+                                    <path d="M5 12h14m-6-6 6 6-6 6" />
+                                </svg>
+                            </a>
+                        </div>
+                        <a class="sidebar-exit" href="../pages/login.html" data-logout>
+                            <svg
+                                class=""
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                aria-hidden="true"
+                                data-icon="logout"
+                            >
+                                <path d="M9 4H4v16h5m4-4 4-4-4-4m-6 4h13" />
+                            </svg>
+                            Sign out
+                        </a>
+                        <a class="sidebar-exit" href="admin-dashboard.html">
+                            <svg
+                                class=""
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                aria-hidden="true"
+                                data-icon="people"
+                            >
+                                <circle cx="9" cy="8" r="3" />
+                                <path
+                                    d="M3 21v-3a6 6 0 0 1 12 0v3M16 5a3 3 0 0 1 0 6m3 10v-3a6 6 0 0 0-3-5"
+                                />
+                            </svg>
+                            Admin sample
+                        </a>
+                    </div>
+                </aside>
+                <div class="dashboard-content">
+                    <header class="dashboard-topbar">
+                        <div class="actions">
+                            <button
+                                class="icon-btn sidebar-toggle"
+                                aria-label="Toggle sidebar"
+                                aria-controls="dash-sidebar"
+                                aria-expanded="false"
+                            >
+                                <svg
+                                    class=""
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    aria-hidden="true"
+                                    data-icon="menu"
+                                >
+                                    <path d="M4 6h16M4 12h16M4 18h16" />
+                                </svg>
+                            </button>
+                            <span class="small">
+                                Workspace
+                                <span class="muted">/</span>
+                                Plan a new move
+                            </span>
+                        </div>
+                        <div class="actions">
+                            <button
+                                class="icon-btn theme-toggle"
+                                data-theme-toggle
+                                aria-label="Switch to dark mode"
+                                title="Switch to dark mode"
+                            >
+                                <svg
+                                    class=""
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    aria-hidden="true"
+                                    data-icon="moon"
+                                >
+                                    <path d="M20 14A9 9 0 0 1 10 3a9 9 0 1 0 10 11Z" />
+                                </svg>
+                            </button>
+                            <button
+                                class="icon-btn direction-toggle"
+                                data-rtl-toggle
+                                aria-label="Switch to right-to-left layout"
+                                title="Switch to right-to-left layout"
+                            >
+                                <svg
+                                    class=""
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    aria-hidden="true"
+                                    data-icon="direction"
+                                >
+                                    <path d="M20 5H4m4-3L4 5l4 3M4 12h16M4 19h16m-4-3 4 3-4 3" />
+                                </svg>
+                                <span data-direction-label>RTL</span>
+                            </button>
+                            <button
+                                class="icon-btn"
+                                data-notifications
+                                aria-label="Show notifications"
+                            >
+                                <svg
+                                    class=""
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    aria-hidden="true"
+                                    data-icon="bell"
+                                >
+                                    <path d="M5 17h14l-2-4V8a5 5 0 0 0-10 0v5l-2 4Zm5 4h4" />
+                                </svg>
+                            </button>
+                            <span class="avatar">AR</span>
+                        </div>
+                    </header>
+                    <div class="dashboard-main">
+                        <div class="dashboard-heading">
+                            <div>
+                                <span class="eyebrow">Your next chapter</span>
+                                <h1>Plan a new move</h1>
+                                <p>A little clarity for every step of your move.</p>
+                            </div>
+                            <a class="btn" href="../dashboard/new-booking.html">
+                                Book a move
+                                <svg
+                                    class="arrow-icon"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    aria-hidden="true"
+                                    data-icon="arrow"
+                                >
+                                    <path d="M5 12h14m-6-6 6 6-6 6" />
+                                </svg>
+                            </a>
+                        </div>
+                        <!-- Content section 1 -->
+                        <section class="panel booking-panel">
+                            <div class="booking-progress" aria-label="Booking steps">
+                                <span data-step-label="0" class="active">
+                                    <b>1</b>
+                                    Service
+                                </span>
+                                <span data-step-label="1" class="">
+                                    <b>2</b>
+                                    Addresses
+                                </span>
+                                <span data-step-label="2" class="">
+                                    <b>3</b>
+                                    Inventory
+                                </span>
+                                <span data-step-label="3" class="">
+                                    <b>4</b>
+                                    Schedule
+                                </span>
+                                <span data-step-label="4" class="">
+                                    <b>5</b>
+                                    Review
+                                </span>
+                            </div>
+                            <form id="booking-form">
+                                <fieldset data-step="0">
+                                    <legend>What’s on the move?</legend>
+                                    <p>Choose the kind of help you need.</p>
+                                    <div class="grid grid-2">
+                                        <label class="service-option">
+                                            <input
+                                                type="radio"
+                                                name="service"
+                                                value="local"
+                                                checked
+                                            />
+                                            <svg
+                                                class=""
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="1.5"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                aria-hidden="true"
+                                                data-icon="home"
+                                            >
+                                                <path d="m3 10 9-7 9 7M5 9v12h14V9M9 21v-8h6v8" />
+                                            </svg>
+                                            <span>
+                                                <strong>Local home shifting</strong>
+                                                <small>
+                                                    A fresh start, just around the corner. Careful
+                                                    door-to-door moves within your city.
+                                                </small>
+                                            </span>
+                                        </label>
+                                        <label class="service-option">
+                                            <input type="radio" name="service" value="intercity" />
+                                            <svg
+                                                class=""
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="1.5"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                aria-hidden="true"
+                                                data-icon="truck"
+                                            >
+                                                <path
+                                                    d="M2 6a2 2 0 0 1 2-2h10v13H2V6Zm12 3h4l4 5v3h-8"
+                                                />
+                                                <circle cx="6" cy="18" r="2.5" />
+                                                <circle cx="18" cy="18" r="2.5" />
+                                                <path d="M14 14h8" />
+                                            </svg>
+                                            <span>
+                                                <strong>Intercity relocation</strong>
+                                                <small>
+                                                    New city. Same peace of mind. Thoughtful
+                                                    planning for every mile of your journey.
+                                                </small>
+                                            </span>
+                                        </label>
+                                        <label class="service-option">
+                                            <input type="radio" name="service" value="packing" />
+                                            <svg
+                                                class=""
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="1.5"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                aria-hidden="true"
+                                                data-icon="box"
+                                            >
+                                                <path
+                                                    d="m12 3 9 5v9l-9 5-9-5V8l9-5Zm0 10 9-5M3 8l9 5v9M7.5 5.5l9 5v4"
+                                                />
+                                            </svg>
+                                            <span>
+                                                <strong>Packing & unpacking</strong>
+                                                <small>
+                                                    From your favourite mug to your largest sofa,
+                                                    every little detail is protected.
+                                                </small>
+                                            </span>
+                                        </label>
+                                        <label class="service-option">
+                                            <input type="radio" name="service" value="office" />
+                                            <svg
+                                                class=""
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="1.5"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                aria-hidden="true"
+                                                data-icon="building"
+                                            >
+                                                <path
+                                                    d="M5 21V3h14v18M3 21h18M9 7h1m4 0h1M9 11h1m4 0h1M9 15h1m4 0h1M10 21v-3h4v3"
+                                                />
+                                            </svg>
+                                            <span>
+                                                <strong>Office relocation</strong>
+                                                <small>
+                                                    Keep your business moving with an organized,
+                                                    carefully coordinated office move.
+                                                </small>
+                                            </span>
+                                        </label>
+                                    </div>
+                                </fieldset>
+                                <fieldset data-step="1" hidden>
+                                    <legend>From here to your next chapter.</legend>
+                                    <div class="form-grid">
+                                        <div>
+                                            <label for="pickup">Pickup address</label>
+                                            <input
+                                                id="pickup"
+                                                name="pickup"
+                                                type="text"
+                                                required
+                                                placeholder="Street, area, city"
+                                            />
+                                        </div>
+                                        <div>
+                                            <label for="delivery">Delivery address</label>
+                                            <input
+                                                id="delivery"
+                                                name="delivery"
+                                                type="text"
+                                                required
+                                                placeholder="Street, area, city"
+                                            />
+                                        </div>
+                                        <div>
+                                            <label for="distance">Approximate distance (km)</label>
+                                            <input
+                                                id="distance"
+                                                name="distance"
+                                                type="number"
+                                                required
+                                                min="0"
+                                                max="10000"
+                                                placeholder="e.g. 25"
+                                                value="20"
+                                            />
+                                        </div>
+                                        <div>
+                                            <label for="floor">Pickup floor</label>
+                                            <input
+                                                id="floor"
+                                                name="floor"
+                                                type="number"
+                                                required
+                                                min="0"
+                                                max="200"
+                                                placeholder="e.g. 2"
+                                                value="0"
+                                            />
+                                        </div>
+                                        <div>
+                                            <label for="elevator">Elevator available?</label>
+                                            <select id="elevator" name="elevator">
+                                                <option value="0">Yes</option>
+                                                <option value="1">No</option>
+                                            </select>
+                                        </div>
+                                        <div>
+                                            <label for="phone">Contact phone</label>
+                                            <input
+                                                id="phone"
+                                                name="phone"
+                                                type="tel"
+                                                required
+                                                placeholder="+91 …"
+                                            />
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <fieldset data-step="2" hidden>
+                                    <legend>Make room for everything.</legend>
+                                    <div class="form-grid">
+                                        <div>
+                                            <label for="size">Home size</label>
+                                            <select id="size" name="size">
+                                                <option value="0">Studio / 1 BHK</option>
+                                                <option value="1">2–3 BHK</option>
+                                                <option value="2">Large home / villa</option>
+                                            </select>
+                                        </div>
+                                        <div>
+                                            <label for="boxes">Approximate number of boxes</label>
+                                            <input
+                                                id="boxes"
+                                                name="boxes"
+                                                type="number"
+                                                required
+                                                min="0"
+                                                max="10000"
+                                                placeholder="e.g. 20"
+                                                value="20"
+                                            />
+                                        </div>
+                                        <div class="full">
+                                            <label for="inventory">
+                                                Furniture & special belongings
+                                            </label>
+                                            <textarea
+                                                id="inventory"
+                                                name="inventory"
+                                                required
+                                                placeholder="Sofa, dining table, fragile artwork…"
+                                            ></textarea>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <fieldset data-step="3" hidden>
+                                    <legend>A date for your fresh start.</legend>
+                                    <div class="form-grid">
+                                        <div>
+                                            <label for="date">Preferred moving date</label>
+                                            <input
+                                                id="date"
+                                                name="date"
+                                                type="date"
+                                                required
+                                                placeholder="Enter preferred moving date"
+                                            />
+                                        </div>
+                                        <div>
+                                            <label for="time">Preferred time window</label>
+                                            <select id="time" name="time">
+                                                <option value="0">Morning · 8 AM–12 PM</option>
+                                                <option value="1">Afternoon · 12 PM–4 PM</option>
+                                            </select>
+                                        </div>
+                                        <div>
+                                            <label for="packing">Packing requirements</label>
+                                            <select id="packing" name="packing">
+                                                <option value="0">Standard packing</option>
+                                                <option value="1">Premium protection</option>
+                                                <option value="2">No packing</option>
+                                            </select>
+                                        </div>
+                                        <div>
+                                            <label for="extras">Additional services</label>
+                                            <select id="extras" name="extras">
+                                                <option value="0">None</option>
+                                                <option value="1">Unpacking</option>
+                                                <option value="2">Furniture assembly</option>
+                                                <option value="3">Both</option>
+                                            </select>
+                                        </div>
+                                        <div class="full">
+                                            <label for="notes">Anything else we should know?</label>
+                                            <textarea
+                                                id="notes"
+                                                name="notes"
+                                                placeholder="Access restrictions, parking or a little extra care…"
+                                            ></textarea>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <fieldset data-step="4" hidden>
+                                    <legend>A little check before you go.</legend>
+                                    <div id="booking-review"></div>
+                                    <label class="checkbox">
+                                        <input type="checkbox" name="consent" required />
+                                        I understand this is an illustrative local booking, not a
+                                        confirmed service.
+                                    </label>
+                                </fieldset>
+                                <div class="booking-actions">
+                                    <button
+                                        type="button"
+                                        class="btn btn-outline"
+                                        id="booking-prev"
+                                        disabled
+                                    >
+                                        Previous
+                                    </button>
+                                    <span class="small" id="step-counter">Step 1 of 5</span>
+                                    <button type="button" class="btn" id="booking-next">
+                                        Continue
+                                        <svg
+                                            class="arrow-icon"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="1.5"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            aria-hidden="true"
+                                            data-icon="arrow"
+                                        >
+                                            <path d="M5 12h14m-6-6 6 6-6 6" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <p class="form-message" role="status"></p>
+                            </form>
+                        </section>
+                        <p class="dashboard-disclaimer">
+                            Fictional data · Browser-local front-end sample · No live dispatch,
+                            authentication or payments.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <dialog id="detail-dialog" aria-labelledby="dialog-title">
+                <div class="dialog-head">
+                    <h2 id="dialog-title">Booking details</h2>
+                    <button class="icon-btn" data-close-dialog aria-label="Close dialog">
+                        <svg
+                            class=""
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            aria-hidden="true"
+                            data-icon="close"
+                        >
+                            <path d="m6 6 12 12M6 18 18 6" />
+                        </svg>
+                    </button>
+                </div>
+                <div id="dialog-body"></div>
+            </dialog>
+        </main>
+
+        <div class="toast" role="status" hidden></div>
+        <script defer src="../assets/js/chart.umd.min.js"></script>
+        <script defer src="../assets/js/demo-store.js"></script>
+        <script defer src="../assets/js/navigation.js"></script>
+        <script defer src="../assets/js/main.js"></script>
+        <script defer src="../assets/js/calculator.js"></script>
+        <script defer src="../assets/js/auth-demo.js"></script>
+        <script defer src="../assets/js/booking.js"></script>
+        <script defer src="../assets/js/dashboard.js"></script>
+        <script defer src="../assets/js/charts.js"></script>
+    </body>
+</html>

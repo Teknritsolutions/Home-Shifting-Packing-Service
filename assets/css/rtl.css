@@ -1,0 +1,22 @@
+html[dir="rtl"] .timeline-item {
+    padding-inline-start: 30px;
+    padding-inline-end: 0;
+}
+html[dir="rtl"] .arrow-icon {
+    transform: rotate(180deg);
+}
+html[dir="rtl"] .route-summary > span {
+    transform: rotate(180deg);
+}
+html[dir="rtl"] .hero-media > img {
+    border-radius: 16px 130px 16px 16px;
+}
+html[dir="rtl"] .chart-wrap {
+    direction: ltr;
+}
+html[dir="rtl"] .brand {
+    letter-spacing: 0;
+}
+html[dir="rtl"] .table-scroll {
+    direction: rtl;
+}

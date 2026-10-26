@@ -1,0 +1,26 @@
+{
+  "method": "OpenAI built-in image generation",
+  "sharedPrompt": "Photorealistic natural editorial moving company photography, daylight, warm cream and green palette, landscape 3:2, no logos, text or watermark.",
+  "images": [
+    {
+      "file": "assets/images/packing-sort-label.webp",
+      "prompt": "Close editorial photograph of a professional Indian mover in a forest green polo sorting household boxes and applying blank room labels on a bright home dining table."
+    },
+    {
+      "file": "assets/images/packing-wrap-protect.webp",
+      "prompt": "Close editorial photograph of hands wrapping delicate glass bowls in honeycomb paper and placing them into cardboard dividers, bright Indian home."
+    },
+    {
+      "file": "assets/images/packing-inventory-check.webp",
+      "prompt": "Editorial photograph of an Indian female moving coordinator checking a tablet against an organized row of packed household boxes in a bright apartment."
+    },
+    {
+      "file": "assets/images/packing-load-order.webp",
+      "prompt": "Editorial photograph of two Indian movers in forest green polos securing neatly stacked boxes inside a clean moving truck, organized loading sequence."
+    },
+    {
+      "file": "assets/images/contact-move-advisor.webp",
+      "prompt": "Editorial photograph of a friendly Indian female moving advisor in a forest green blouse talking on a headset beside a laptop and moving checklist in a warm professional office. Full face and head visible."
+    }
+  ]
+}
